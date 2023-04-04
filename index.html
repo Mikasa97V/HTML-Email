@@ -1,0 +1,606 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>HTML Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <style type="text/css">
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+    }
+
+    [style*="Open Sans"] {
+      font-family: 'Open Sans', arial, sans-serif !important;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    .main_table {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .logo_wrap {
+      padding-top: 30px;
+      padding-bottom: 7px;
+    }
+
+    .logo_subtitle_wrap {
+      padding-bottom: 28px;
+    }
+
+    .logo,
+    .logo_subtitle {
+      width: 188px;
+    }
+
+    .logo {
+      height: 23px;
+    }
+
+    .logo_subtitle {
+      height: 11px;
+    }
+
+    .preview {
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .container_32 {
+      padding: 32px 40px;
+    }
+
+    .container_26 {
+      padding: 26px 40px;
+    }
+
+    .preview_text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .preview_text_title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .section_subtitle {
+      margin-bottom: 21px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .picture {
+      margin-bottom: 21px;
+    }
+
+    .section_author {
+      margin-bottom: 8px;
+
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .article_text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .services_img {
+      margin-bottom: 15px;
+    }
+
+    .services_text {
+      padding-right: 10px;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .link_wrap {
+      max-width: 240px;
+      padding-top: 22px;
+      padding-bottom: 22px;
+
+      background: #9D5CD0;
+      border-radius: 48px;
+    }
+
+    .link {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .container_27 {
+      padding-top: 27px;
+      padding-bottom: 16px;
+    }
+
+    .social_network_main_wrap {
+      margin-bottom: 10px;
+    }
+
+    .social_network_wrap {
+      width: 35px;
+      height: 35px;
+    }
+
+    .social_network_img {
+      margin-right: 19px;
+    }
+
+    .reserved_rights_text {
+      display: inline;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      color: #757575;
+    }
+
+    .footer {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 24px;
+    }
+
+    .footer_text {
+      display: inline;
+      color: #757575;
+    }
+
+    .footer_link {
+      color: #9D5CD0;
+    }
+
+    .services_main_wrap_600 {
+      display: block;
+    }
+
+    .services_main_wrap_280 {
+      display: none;
+    }
+
+    @media (max-width: 399px) {
+      .logo_wrap {
+        padding-top: 17px;
+        padding-bottom: 4px;
+      }
+
+      .logo_subtitle_wrap {
+        padding-bottom: 17px;
+      }
+
+      .logo,
+      .logo_subtitle {
+        width: 114px;
+      }
+
+      .logo {
+        height: 14px;
+      }
+
+      .logo_subtitle {
+        height: 7px;
+      }
+
+      .container_32,
+      .container_26 {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .picture {
+        margin-bottom: 10px;
+      }
+
+      .section_author {
+        margin-bottom: 10px;
+      }
+
+      .services_main_wrap {
+        row-gap: 21px;
+      }
+
+      .services_wrap,
+      .services_text {
+        width: 100%;
+      }
+
+      .services_main_wrap_600 {
+        display: none;
+      }
+
+      .services_main_wrap_280 {
+        display: block;
+      }
+    }
+
+  </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+<table cellpadding="0" cellspacing="0" width="100%" bgcolor="white" class="main_table">
+  <tr bgcolor="#000000" class="logo">
+    <th class="logo_wrap" align="center">
+      <img src="https://i.ibb.co/tXHhhxL/Blanchard.png" alt="Logo" class="logo"/>
+    </th>
+  </tr>
+  <tr bgcolor="#000000" class="logo">
+    <th class="logo_subtitle_wrap" align="center">
+      <img src="https://i.ibb.co/2sBNf0X/image.png" alt="" class="logo_subtitle"/>
+    </th>
+  </tr>
+  <tr>
+    <th>
+      <img src="https://i.ibb.co/8z6KrMr/Preview.png" alt="preview" class="preview"/>
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" width="100%" bgcolor="white">
+        <tr>
+          <td class="container_32">
+            <table cellpadding="0" cellspacing="0" width="100%" bgcolor="white">
+              <tr>
+                <td style="padding-bottom: 13px">
+                  <h1 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif" class="preview_text_title">
+                    Торжество импрессионизма</h1>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif; margin-bottom: 10px"
+                     class="preview_text">
+                    Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых принципов
+                    формирования материально-технической и кадровой базы.
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif" class="preview_text">
+                    Задача организации, в особенности же внедрение современных методик, в своём классическом
+                    представлении,
+                    допускает внедрение глубокомысленных рассуждений. Есть над чем задуматься: элементы политического
+                    процесса
+                    преданы социально-демократической анафеме! Но интерактивные прототипы заблокированы в рамках своих
+                    собственных
+                    рациональных ограничений. Сторонники тоталитаризма в науке ограничены исключительно образом
+                    мышления.
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#000000">
+              <tr>
+                <td class="container_26">
+                  <table cellpadding="0" cellspacing="0" width="100%" style="color: white">
+                    <tr>
+                      <td>
+                        <h2 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif" class="section_subtitle">
+                          Представленные художники</h2>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 21px">
+                          <tr>
+                            <td>
+                              <img src="https://i.ibb.co/rfXtysR/paul-gauguin.png" alt="paul gauguin" class="picture"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif"
+                                  class="section_author">Поль Гоген</h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="article_text" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
+                                Прежде всего, разбавленное изрядной долей эмпатии, рациональное мышление в значительной
+                                степени обусловливает важность укрепления моральных ценностей.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 21px">
+                          <tr>
+                            <td>
+                              <img src="https://i.ibb.co/0qcgV15/auguste-renoir.png" alt="auguste renoir"
+                                   class="picture"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif"
+                                  class="section_author">Огюст Ренуар</h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="article_text" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">А
+                                также сделанные на базе интернет-аналитики выводы освещают чрезвычайно интересные
+                                особенности картины в целом.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 21px">
+                          <tr>
+                            <td>
+                              <img src="https://i.ibb.co/JkjvwwB/claude-monet.png" alt="claude monet" class="picture"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif"
+                                  class="section_author">Клод Моне</h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="article_text" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
+                                Современная методология разработки однозначно фиксирует необходимость системы массового
+                                участия.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 21px">
+                          <tr>
+                            <td>
+                              <img src="https://i.ibb.co/0G7PNgK/eduard-manet.png" alt="eduard manet" class="picture"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif"
+                                  class="section_author">Эдуард Мане</h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="article_text" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
+                                Но социально-экономическое развитие является качественно новой ступенью вывода текущих
+                                активов.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 21px">
+                          <tr>
+                            <td>
+                              <img src="https://i.ibb.co/Q8L4gqs/van-gogh.png" alt="van-gogh" class="picture"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <h3 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif"
+                                  class="section_author">Винсент Ван Гог</h3>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p class="article_text" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
+                                Повседневная практика показывает, что разбавленное изрядной долей эмпатии, рациональное
+                                мышление требует анализа поставленных обществом задач.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" width="100%" bgcolor="white">
+        <tr>
+          <td class="container_32">
+            <table cellpadding="0" cellspacing="0" width="100%">
+              <tr>
+                <td>
+                  <h2 style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="section_subtitle">И это
+                    ёще не все!</h2>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 34px">
+                    <tr>
+                      <td class="services_main_wrap_280">
+                        <div style="margin-bottom: 21px">
+                          <img src="https://i.ibb.co/S0HGsk7/check-square.png" alt="check-square" class="services_img"/>
+                          <p style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="services_text">
+                            Уникальные подборки работ с авторскими рецензиями</p>
+                        </div>
+                        <div style="margin-bottom: 21px">
+                          <img src="https://i.ibb.co/phDF7rq/calendar.png" alt="calendar" class="services_img"/>
+                          <p style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="services_text">
+                            Возможность настроить нашу рассылку под свой личный вкус
+                          </p>
+                        </div>
+                        <div style="margin-bottom: 21px">
+                          <img src="https://i.ibb.co/cLZ73Mn/arrow-up-circle.png" alt="arrow-up-circle"
+                               class="services_img"/>
+                          <p style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="services_text">
+                            У вас есть пожелания и предложения?
+                            Напишите нам в ответ на это письмо!
+                          </p>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <table cellpadding="0" cellspacing="0" width="100%" class="services_main_wrap services_main_wrap_600">
+                          <colgroup>
+                            <col span="1" style="width: 33%" />
+                            <col span="1" style="width: 33%" />
+                            <col span="1" style="width: 33%" />
+                          </colgroup>
+                          <tr>
+                            <td class="services_wrap">
+                              <img src="https://i.ibb.co/V3JzB36/check-square.png" alt="check-square" class="services_img"/>
+                            </td>
+                            <td class="services_wrap">
+                              <img src="https://i.ibb.co/Qv4xbXD/calendar.png" alt="calendar" class="services_img"/>
+                            </td>
+                            <td class="services_wrap">
+                              <img src="https://i.ibb.co/QmScTfB/arrow-up-circle.png" alt="arrow-up-circle"
+                                   class="services_img"/>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td valign="top" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="services_text" >
+                              Уникальные подборки <br/> работ с авторскими <br/> рецензиями
+                            </td>
+                            <td valign="top" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="services_text">
+                              Возможность настроить <br/> нашу рассылку под свой <br/> личный вкус
+                            </td>
+                            <td valign="top" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif; padding-right: 0" class="services_text">
+                              У вас есть пожелания и предложения? <br/> Напишите нам в ответ <br/> на это письмо!
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  <div class="link_wrap">
+                    <a href="#" class="link" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">Узнать все
+                      подробности</a>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#000000">
+        <tr>
+          <td class="container_27">
+            <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#000000">
+              <tr class="social_network_main_wrap" align="center">
+                <td>
+                  <table style="margin-bottom: 12px">
+                    <tr align="center">
+                      <td class="social_network_wrap">
+                        <div style="margin-right: 19px; width: 35px; height: 35px">
+                          <img src="https://i.ibb.co/Pm1QwPS/vk.png" alt="VK" class="social_network_img"/>
+                        </div>
+                      </td>
+                      <td class="social_network_wrap">
+                        <div style="margin-right: 19px; width: 35px; height: 35px">
+                          <img src="https://i.ibb.co/hXL3Qvd/instagram.png" alt="instagram" class="social_network_img"/>
+                        </div>
+                      </td>
+                      <td class="social_network_wrap">
+                        <div style="width: 35px; height: 35px">
+                          <img src="https://i.ibb.co/nDR9X4z/fb.png" alt="FB" class="social_network_img"/>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr align="center">
+                <td>
+                  <p class="reserved_rights_text" style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;">
+                    Blanchard © 2020 / Все права защищены</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr bgcolor="#EBEBEB" align="center">
+    <td class="footer">
+      <p style="font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;" class="footer_text">Вы можете так же </p>
+      <a href="#" class="footer_link">отписаться от рассылки</a>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
